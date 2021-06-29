@@ -1,0 +1,38 @@
+name: fast_test
+suffix: ~  # add suffix to saved images
+model: srgan_phase2
+distortion: sr
+scale: 1
+crop_border: ~  # crop border when evaluation. If None(~), crop the scale pixels
+gpu_ids: [7]
+
+datasets:
+  test_1:  # the 1st test dataset
+    name: KWAI-test
+    mode: LQ
+#    dataroot_LQ: /home/web_server/zhouhuanxiang/disk/data_test/2
+    dataroot_LQ: /home/web_server/zhouhuanxiang/disk/data_test/testcase_gan_deart/output_medium_raw_7
+
+    win_size: 11
+    win_type: gauss
+
+#### network structures
+network_G:
+  which_model_G: MSRResNet_o2m
+  in_nc: 3
+  out_nc: 3
+  nf: 32
+  nb: 8
+  upscale: 1
+  one2many: true
+  var: false
+
+#### path
+path:
+#  pretrain_model_G: ~/zhouhuanxiang/disk/log/experiments/SRGANx1_phase2_patchls_o2m_KWAI35_2/models/latest_G.pth
+#  pretrain_model_G: ~/zhouhuanxiang/disk/log/experiments/SRGANx1_phase2_patchls_o2m_var_KWAI35_2_archived_201027-220552/models/latest_G.pth
+#  pretrain_model_G: ~/zhouhuanxiang/disk/log/experiments/SRGANx1_phase2_patchls_o2m_var_KWAI35_0/models/latest_G.pth
+#  pretrain_model_G: ~/zhouhuanxiang/disk/log/experiments/SRGANx1_phase2_patchls_o2m_var_KWAI35_f32b8_1/models/100000_G.pth
+  pretrain_model_G: ~/zhouhuanxiang/disk/log/experiments/SRGANx1_phase2_patchls_o2m_var_KWAI35_f32b8_1/models/latest_G.pth
+
+# python ~/zhouhuanxiang/mmsr/codes/test.py -opt ~/zhouhuanxiang/mmsr/codes/options/test/srgan/fast_test_0.yml

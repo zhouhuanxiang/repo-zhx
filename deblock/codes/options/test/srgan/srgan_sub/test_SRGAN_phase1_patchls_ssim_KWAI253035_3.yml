@@ -1,0 +1,30 @@
+name: test_SRGAN_phase1_patchls_ssim_KWAI253035_3
+suffix: ~  # add suffix to saved images
+model: srgan_phase2
+distortion: sr
+scale: 1
+crop_border: ~  # crop border when evaluation. If None(~), crop the scale pixels
+gpu_ids: [2]
+
+datasets:
+  test_1:  # the 1st test dataset
+    name: KWAI-test
+    mode: LQGT
+    dataroot_GT: /media/disk1/fordata/web_server/zhouhuanxiang/data/HD_UGC_raw_test
+    dataroot_LQ: /media/disk1/fordata/web_server/zhouhuanxiang/data/HD_UGC_crf35_raw_test
+
+#### network structures
+network_G:
+  which_model_G: MSRResNet
+  in_nc: 3
+  out_nc: 3
+  nf: 64
+  nb: 16
+  upscale: 1
+  w_phase1: false
+
+#### path
+path:
+  pretrain_model_G: ~/zhouhuanxiang/disk/log/experiments/SRGANx1_phase2_patchls_ssim_KWAI253035_3/models/latest_G.pth
+
+# python ~/zhouhuanxiang/mmsr/codes/test.py -opt ~/zhouhuanxiang/mmsr/codes/options/test/srgan/test_SRGAN_phase1_patchls_ssim_KWAI253035_3.yml

@@ -1,0 +1,93 @@
+# Not exactly the same as SRGAN in <Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network>
+# With 16 Residual blocks w/o BN
+
+#### general settings
+# name: 002_SRGANx4_MSRResNetx4Ini_DIV2K
+name: SRGANx1_phase2_patchls_KWAI35_2
+use_tb_logger: true
+model: srgan_phase2
+distortion: sr
+scale: 1
+gpu_ids: [0]
+
+#### datasets
+datasets:
+  train:
+    name: KWAI
+    mode: LQGT
+    dataroot_GT: /home/web_server/zhouhuanxiang/disk/data/HD_UGC_raw
+    # dataroot_LQ: /home/web_server/zhouhuanxiang/disk/log_prev/log_20190905/EDSR_crf25_baseline/results-KWAIVIDEO-crf25
+    dataroot_LQ: /home/web_server/zhouhuanxiang/disk/data/HD_UGC_crf35_raw
+
+    use_shuffle: true
+    n_workers: 1  # per GPU
+    batch_size: 16
+    GT_size: 128
+    use_flip: true
+    use_rot: true
+    color: RGB
+
+#### network structures
+network_G:
+  which_model_G: MSRResNet
+  in_nc: 3
+  out_nc: 3
+  nf: 64
+  nb: 16
+  upscale: 1
+network_D:
+  which_model_D: discriminator_patch
+  in_nc: 3
+  nf: 64
+  Instance: instance
+
+#### path
+path:
+  pretrain_model_G: ~
+  strict_load: true
+  resume_state: ~ 
+
+#### training settings: learning rate scheme, loss
+train:
+  lr_G: !!float 1e-4
+  weight_decay_G: 0
+  beta1_G: 0.9
+  beta2_G: 0.99
+  lr_D: !!float 1e-4
+  weight_decay_D: 0
+  beta1_D: 0.9
+  beta2_D: 0.99
+  lr_scheme: MultiStepLR
+
+  # niter: 400000
+  # warmup_iter: -1  # no warm up
+  # lr_steps: [50000, 100000, 200000, 300000]
+  # lr_gamma: 0.5
+
+  niter: 100000
+  warmup_iter: -1  # no warm up
+  lr_steps: [25000, 25000, 25000, 25000]
+  lr_gamma: 0.5
+
+  pixel_criterion: l1
+  pixel_weight: 0.1
+  loss_feature_type: l1
+  loss_feature_weight: 0.005
+  loss_gan_type: lsgan
+  loss_gan_weight: 0.005
+
+  D_update_ratio: 1
+  D_init_iters: 0
+
+  manual_seed: 10
+  val_freq: !!float 5e3
+  # val_freq: !!float 16
+
+#### logger
+logger:
+  print_freq: 100
+  # print_freq: 16
+  save_checkpoint_freq: !!float 5e3
+  # save_checkpoint_freq: !!float 16
+
+# python ~/zhouhuanxiang/mmsr/codes/train.py -opt ~/zhouhuanxiang/mmsr/codes/options/train/srgan/train_SRGAN_phase2_patchls_KWAI35_2.yml

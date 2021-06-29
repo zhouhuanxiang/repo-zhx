@@ -1,0 +1,292 @@
+{
+    "akiyo_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "bridge_close_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "coastguard_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "container_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "deadline_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "flower_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "250"
+    },
+    "football_422_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "260"
+    },
+    "foreman_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "hall_monitor_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "highway_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "husky_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "250"
+    },
+    "mobile_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "mother_daughter_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "news_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "sign_irene_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "250"
+    },
+    "silent_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "students_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "300"
+    },
+    "waterfall_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "260"
+    },
+    "tempete_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "260"
+    },
+    "mobile_calendar_422_4sif": {
+        "height": "480",
+        "width": "640",
+        "length": "300"
+    },
+    "football_422_4sif": {
+        "height": "480",
+        "width": "640",
+        "length": "300"
+    },
+    "ice_4cif": {
+        "height": "576",
+        "width": "704",
+        "length": "480"
+    },
+    "soccer_4cif": {
+        "height": "576",
+        "width": "704",
+        "length": "600"
+    },
+    "harbour_4cif": {
+        "height": "576",
+        "width": "704",
+        "length": "600"
+    },
+    "crew_4cif": {
+        "height": "576",
+        "width": "704",
+        "length": "600"
+    },
+    "city_4cif": {
+        "height": "576",
+        "width": "704",
+        "length": "600"
+    },
+    "720p50_shields_ter": {
+        "height": "720",
+        "width": "1280",
+        "length": "500"
+    },
+    "720p5994_stockholm_ter": {
+        "height": "720",
+        "width": "1280",
+        "length": "600"
+    },
+    "blue_sky_1080p25": {
+        "height": "1080",
+        "width": "1920",
+        "length": "217"
+    },
+    "controlled_burn_1080p": {
+        "height": "1080",
+        "width": "1920",
+        "length": "300"
+    },
+    "pedestrian_area_1080p25": {
+        "height": "1080",
+        "width": "1920",
+        "length": "250"
+    },
+    "riverbed_1080p25": {
+        "height": "1080",
+        "width": "1920",
+        "length": "250"
+    },
+    "rush_field_cuts_1080p": {
+        "height": "1080",
+        "width": "1920",
+        "length": "300"
+    },
+    "rush_hour_1080p25": {
+        "height": "1080",
+        "width": "1920",
+        "length": "250"
+    },
+    "station2_1080p25": {
+        "height": "1080",
+        "width": "1920",
+        "length": "250"
+    },
+    "sunflower_1080p25": {
+        "height": "1080",
+        "width": "1920",
+        "length": "250"
+    },
+    "touchdown_pass_1080p": {
+        "height": "1080",
+        "width": "1920",
+        "length": "300"
+    },
+    "tractor_1080p25": {
+        "height": "1080",
+        "width": "1920",
+        "length": "250"
+    },
+    "crowd_run_1080p50": {
+        "height": "1080",
+        "width": "1920",
+        "length": "500"
+    },
+    "ducks_take_off_1080p50": {
+        "height": "1080",
+        "width": "1920",
+        "length": "500"
+    },
+    "in_to_tree_1080p50": {
+        "height": "1080",
+        "width": "1920",
+        "length": "500"
+    },
+    "old_town_cross_1080p50": {
+        "height": "1080",
+        "width": "1920",
+        "length": "500"
+    },
+    "park_joy_1080p50": {
+        "height": "1080",
+        "width": "1920",
+        "length": "500"
+    },
+    "Netflix_SquareAndTimelapse_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "600"
+    },
+    "Netflix_RitualDance_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "600"
+    },
+    "Netflix_Crosswalk_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "300"
+    },
+    "Netflix_Narrator_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "300"
+    },
+    "Netflix_BoxingPractice_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "254"
+    },
+    "Netflix_Tango_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "294"
+    },
+    "Netflix_FoodMarket_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "600"
+    },
+    "Netflix_Boat_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "300"
+    },
+    "Netflix_WindAndNature_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "600"
+    },
+    "Netflix_PierSeaside_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "600"
+    },
+    "Netflix_Dancers_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "600"
+    },
+    "Netflix_ToddlerFountain_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "600"
+    },
+    "Netflix_DrivingPOV_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "600"
+    },
+    "Netflix_RollerCoaster_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "600"
+    },
+    "Netflix_DinnerScene_2048x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "2048",
+        "length": "600"
+    }
+}

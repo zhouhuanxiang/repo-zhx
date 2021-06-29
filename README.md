@@ -1,8 +1,9 @@
 # repo-zhx
 
+## 0. 概述
 2018.9-2021.7 期间的工作总结
 
-## 去压缩失真
+## 1. 去压缩失真
 #### 去压缩失真主要采用快手线上数据进行训练：
   - 采用ffmpeg进行压缩，人工构建压缩数据集；
   - 文件目录在29服务器上，/home/web_server/zhouhuanxiang/disk/data，数据集的规模为454，并人工选取其中有代表性的15个视频作为测试集；
@@ -37,7 +38,7 @@
     - ./models/archs/EDVR_arch.py
     - /home/web_server/zhouhuanxiang/disk/log/experiments/EDVR*
 
-## 去模糊
+## 2. 去模糊
 
 #### 去模糊实验主要采用快手线上数据进行训练：
 - 估计出来的模糊核： ~/huangxiaozheng/blur_kernel

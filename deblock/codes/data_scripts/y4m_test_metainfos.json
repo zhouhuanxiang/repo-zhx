@@ -1,0 +1,52 @@
+{
+    "mad900_cif": {
+        "height": "288",
+        "width": "352",
+        "length": "900"
+    },
+    "BasketballPass_416x240_50": {
+        "height": "240",
+        "width": "416",
+        "length": "501"
+    },
+    "RaceHorses_416x240_30": {
+        "height": "240",
+        "width": "416",
+        "length": "300"
+    },
+    "vidyo1_720p_60fps": {
+        "height": "720",
+        "width": "1280",
+        "length": "601"
+    },
+    "vidyo3_720p_60fps": {
+        "height": "720",
+        "width": "1280",
+        "length": "601"
+    },
+    "vidyo4_720p_60fps": {
+        "height": "720",
+        "width": "1280",
+        "length": "601"
+    },
+    "Kimono1_1920x1080_24": {
+        "height": "1080",
+        "width": "1920",
+        "length": "240"
+    },
+    "Netflix_TunnelFlag_1920x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "1920",
+        "length": "600"
+    },
+    "Netflix_BarScene_1920x1080_60fps_8bit_420": {
+        "height": "1080",
+        "width": "1920",
+        "length": "1199"
+    },
+    "PeopleOnStreet_2560x1600_30_crop": {
+        "height": "1600",
+        "width": "2560",
+        "length": "150"
+    }
+}

@@ -1,0 +1,33 @@
+name: test_SRGAN_phase2_patchls_o2m_var_KWAI35_2_output_vid_mm
+suffix: ~  # add suffix to saved images
+model: srgan_phase2
+distortion: sr
+scale: 1
+crop_border: ~  # crop border when evaluation. If None(~), crop the scale pixels
+gpu_ids: [5]
+
+datasets:
+  test_1:  # the 1st test dataset
+    name: KWAI-test
+    mode: LQVar
+    dataroot_LQ: /mnt/video/maqiufang/tmp/testcase_gan_deart_raw/output_vid_0
+
+    win_size: 11
+    win_type: gauss
+
+#### network structures
+network_G:
+  which_model_G: MSRResNet_o2m_var
+  in_nc: 3
+  out_nc: 3
+  nf: 64
+  nb: 16
+  upscale: 1
+  one2many: true
+  var: true
+
+#### path
+path:
+  pretrain_model_G: ~/zhouhuanxiang/disk/log/experiments/SRGANx1_phase2_patchls_o2m_KWAI35_2/models/latest_G.pth
+
+# python ~/zhouhuanxiang/mmsr/codes/test.py -opt ~/zhouhuanxiang/mmsr/codes/options/test/srgan/test_SRGAN_phase2_patchls_o2m_KWAI35_2.yml

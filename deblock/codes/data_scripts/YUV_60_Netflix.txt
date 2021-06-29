@@ -1,0 +1,15 @@
+Netflix_SquareAndTimelapse_2048x1080_60fps_8bit_420	2048	1080	600	1
+Netflix_RitualDance_2048x1080_60fps_8bit_420	2048	1080	600	1
+Netflix_Crosswalk_2048x1080_60fps_8bit_420	2048	1080	300	1
+Netflix_Narrator_2048x1080_60fps_8bit_420	2048	1080	300	1
+Netflix_BoxingPractice_2048x1080_60fps_8bit_420	2048	1080	254	1
+Netflix_Tango_2048x1080_60fps_8bit_420	2048	1080	294	1
+Netflix_FoodMarket_2048x1080_60fps_8bit_420	2048	1080	600	1
+Netflix_Boat_2048x1080_60fps_8bit_420	2048	1080	300	1
+Netflix_WindAndNature_2048x1080_60fps_8bit_420	2048	1080	600	1
+Netflix_PierSeaside_2048x1080_60fps_8bit_420	2048	1080	600	1
+Netflix_Dancers_2048x1080_60fps_8bit_420	2048	1080	600	1
+Netflix_ToddlerFountain_2048x1080_60fps_8bit_420	2048	1080	600	1
+Netflix_DrivingPOV_2048x1080_60fps_8bit_420	2048	1080	600	1
+Netflix_RollerCoaster_2048x1080_60fps_8bit_420	2048	1080	600	1
+Netflix_DinnerScene_2048x1080_60fps_8bit_420	2048	1080	600	1
